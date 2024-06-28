@@ -50,11 +50,13 @@
     flex-direction: column;
     justify-content: center;
 }
-.page-container2{
-}
 .page-container3{
     height: 44vh;
     background-color: blueviolet;
+    font-family: "Roboto", sans-serif;
+    justify-content: center;
+    align-items: center;
+    line-height: 330%;
 }
 .home-text{
     font-size: 320%;
@@ -128,12 +130,12 @@
     height: 68vh;
     display: flex;
 }
-.about-text-main{
+.about-text-main,.tech-text-main{
     text-transform: uppercase;
     font-weight: 600;
     font-size: 200%;
 }
-.about-text-sub{
+.about-text-sub,.tech-text-sub{
     font-size: 100%;
 }
 .about-text-main2{
@@ -158,4 +160,20 @@
     list-style-type: none;
     padding-left: 8%;
     line-height: 170%;
+}
+.tech-icon-container{
+    width: 80%;
+    height: 25%;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tech-icon{
+    height: 100%;
+    cursor: pointer;
+    gap: 5%;
+}
+.tech-icon:hover{
+    margin-top: -2%;
 }
