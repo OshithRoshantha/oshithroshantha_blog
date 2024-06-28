@@ -1,0 +1,161 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.masterhead{
+    width: 100%;
+    height: 12vh;
+    background-color: red;
+    position: fixed;
+    z-index: 9999;
+}
+.socials-container{
+    padding: 10px;
+    position: absolute;
+    left: 0%;
+    top: 32%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0px 20px 20px 0px;
+    background-color: yellow;
+}
+.social-icon{
+    height: 32px;
+    cursor: pointer;
+    margin-top: 17px;
+    border-radius: 10px;
+    padding: 6px;
+}
+.social-icon:hover{
+    background-color: blue;
+}
+.masterhead-hidden{
+    width: 100%;
+    height: 12vh; 
+}
+.home-container,.about-conatiner,.tech-container{
+    width: 100%;
+    height: 88vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.tech-container{
+    height: 44vh;
+}
+.page-container,.page-container2,.page-container3{
+    width: 85%;
+    height: 88vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.page-container2{
+}
+.page-container3{
+    height: 44vh;
+    background-color: blueviolet;
+}
+.home-text{
+    font-size: 320%;
+}
+.home-text-main{
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;    
+}
+.animated-text{
+    font-size: 140%;
+    font-weight: 700;  
+    display: flex;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 3.5s steps(20, end), blink-caret 0.75s step-end infinite;
+}
+.home-text-sub{
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 50%;
+}
+@keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+}
+@keyframes blink-caret {
+    from, to {
+      border-color: transparent;
+    }
+    50% {
+      border-color: black;
+    }
+}
+.button-1{
+    width: 12%;
+    margin-top: 4%;
+    padding: 0.5% 0%;
+    border-radius: 10px;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    font-size: 45%;
+    font-weight: 700;
+    font-family: "Nunito Sans", sans-serif;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.about-text{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.about-right-space{
+    width: 30%;
+}
+.container2-upper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    font-family: "Roboto", sans-serif;
+    line-height: 330%;
+}
+.container2-lower{
+    height: 68vh;
+    display: flex;
+}
+.about-text-main{
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 200%;
+}
+.about-text-sub{
+    font-size: 100%;
+}
+.about-text-main2{
+    font-family: "Roboto", sans-serif;
+    font-size: 130%;
+    font-weight: 600;
+}
+.about-text-sub2{
+    font-family: "Roboto", sans-serif;
+    text-align: justify;
+    font-size: 100%;
+}
+.about-right-space{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.about-img{
+    height: 80%;
+}
+.about-interests{
+    list-style-type: none;
+    padding-left: 8%;
+    line-height: 170%;
+}
