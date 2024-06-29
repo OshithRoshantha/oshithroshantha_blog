@@ -202,6 +202,7 @@ button,.button-1,.button-2{
     cursor: pointer;
 }
 .button-2{
+    padding: 1.5% 0%;
     width: 130px;
     font-size: 120%;
     margin-top: 6%;
