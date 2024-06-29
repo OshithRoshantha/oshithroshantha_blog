@@ -126,7 +126,7 @@ a{
     align-items: end;
     padding-top: 1.5%;
 }
-.home-container,.about-conatiner,.tech-container,.proff-container,.conatct-container{
+.home-container,.about-conatiner,.tech-container,.proff-container,.conatct-container,.projects-container{
     width: 100%;
     height: 88vh;
     display: flex;
@@ -137,7 +137,10 @@ a{
 .tech-container{
     height: 50vh;
 }
-.page-container,.page-container2,.page-container3,.page-container4,.page-container5{
+.projects-container{
+    height: auto;
+}
+.page-container,.page-container2,.page-container3,.page-container4,.page-container5,.page-container6{
     width: 85%;
     height: 88vh;
     display: flex;
@@ -150,6 +153,9 @@ a{
     justify-content: center;
     align-items: center;
     line-height: 330%;
+}
+.page-container6{
+    height: auto;
 }
 .home-text{
     font-size: 320%;
@@ -224,7 +230,7 @@ button{
 .about-right-space{
     width: 30%;
 }
-.container2-upper,.container4-upper,.container5-upper{
+.container2-upper,.container4-upper,.container5-upper,.container6-upper{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -240,6 +246,10 @@ button{
 .container5-lower-left,.container5-lower-right{
     height: 68vh;
 }
+.container6-lower{
+    padding: 5% 0% 5% 0%;
+    background-color: red;
+}
 .container5-lower-left{
     display: flex;
     flex-direction: column;
@@ -252,12 +262,12 @@ button{
     justify-content:end;
     align-items: start;
 }
-.about-text-main,.tech-text-main,.proff-text-main,.contact-text-main{
+.about-text-main,.tech-text-main,.proff-text-main,.contact-text-main,.project-text-main{
     text-transform: uppercase;
     font-weight: 600;
     font-size: 200%;
 }
-.about-text-sub,.tech-text-sub,.proff-text-sub{
+.about-text-sub,.tech-text-sub,.proff-text-sub,.project-text-sub{
     font-size: 100%;
 }
 .about-text-main2,.proff-text-main2{
