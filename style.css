@@ -151,9 +151,6 @@ a{
     align-items: center;
     line-height: 330%;
 }
-.page-container5{
-    background-color: blue;
-}
 .home-text{
     font-size: 320%;
 }
@@ -190,7 +187,7 @@ a{
       border-color: black;
     }
 }
-.button-1{
+button,.button-1,.button-2{
     width: 150px;
     margin-top: 4%;
     padding: 0.5% 0%;
@@ -204,6 +201,19 @@ a{
     text-transform: uppercase;
     cursor: pointer;
 }
+.button-2{
+    width: 130px;
+    font-size: 120%;
+    margin-top: 6%;
+}
+button{
+    padding: 2.5% 0%;
+    font-size: 80%;
+    font-family: "Nunito Sans", sans-serif;
+    text-transform: uppercase;
+    border: none;
+    background-color: red;
+}
 .about-text{
     width: 70%;
     display: flex;
@@ -213,7 +223,7 @@ a{
 .about-right-space{
     width: 30%;
 }
-.container2-upper,.container4-upper{
+.container2-upper,.container4-upper,.container5-upper{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -222,11 +232,26 @@ a{
     font-family: "Roboto", sans-serif;
     line-height: 330%;
 }
-.container2-lower,.container4-lower{
+.container2-lower,.container4-lower,.container5-lower{
     height: 68vh;
     display: flex;
 }
-.about-text-main,.tech-text-main,.proff-text-main{
+.container5-lower-left,.container5-lower-right{
+    height: 68vh;
+}
+.container5-lower-left{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: start;
+}
+.container5-lower-right{
+    width: 50%;
+    display: flex;
+    justify-content:end;
+    align-items: start;
+}
+.about-text-main,.tech-text-main,.proff-text-main,.contact-text-main{
     text-transform: uppercase;
     font-weight: 600;
     font-size: 200%;
@@ -312,6 +337,15 @@ a{
 .proff-img{
     height: 80%;
 }
+.conatct-lowertext-main{
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 800;
+    font-size: 300%;
+}
+.contact-lowertext-sub{
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 150%;
+}
 .footer-text-main{
     font-family: "Roboto", sans-serif;
     text-transform: uppercase;
@@ -332,4 +366,38 @@ a{
 }
 .footer-social-icon{
     height: 4vh;
+}
+.form-container{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    padding: 0% 3% 4.5% 3%;
+    border-radius: 12px;
+}
+form{
+    width: 100%;
+    margin-top: 5%;
+}
+input,textarea{
+    background-color: white;
+    border-radius:10px;
+    font-family: "Roboto", sans-serif;
+    font-size: 90%;
+    padding: 1.5% 3%;
+    width: 94%;
+    margin-top: 1.5%;
+    border: solid 1px;
+}
+.form-main-text{
+    font-family: "Roboto", sans-serif;
+    font-size: 130%;
+    font-weight: 600;
+}
+.form-text{
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-size: 90%;
+    margin-top: 4%;
 }
