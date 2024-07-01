@@ -247,7 +247,7 @@ button{
     height: 68vh;
 }
 .container6-lower{
-    padding: 5% 0% 5% 0%;
+    padding: 4% 0% 5% 0%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -415,16 +415,30 @@ input,textarea{
     margin-top: 4%;
 }
 .project-card{
-    width: 60%;
+    width: 70%;
     height: 35vh;
     border-radius: 20px;
     display: flex;
     font-family: "Roboto", sans-serif;
+    margin-bottom: 5%;
+    margin-left: 10%;
+}
+.currently-working{
+    position: absolute;
+    background-color: red;
+    padding: 0.5%;
+    border-radius: 5px;
+    color: white;
+    right: 15%;
+    margin-top: -0.5%;
+    font-size: 60%;
 }
 .card-img{
     width: 34%;
     height: 100%;
-    background-color: yellow;
+    display: flex;
+    justify-content: end;
+    align-items: center;
     border-radius: 20px 0px 0px 20px;
 }
 .card-description{
@@ -432,7 +446,7 @@ input,textarea{
     width: 66%;
     display: flex;
     flex-direction: column;
-    padding-left: 5%;
+    padding-left: 2%;
 }
 .card-text{
     width: 90%;
@@ -446,7 +460,8 @@ input,textarea{
 }
 .card-tech-container{
     display: flex;
-    column-gap: 0.01%;
+    gap: 1.5%;
+    padding-left: 5%;
 }
 .tech-card{
     font-size: 85%;
@@ -454,14 +469,14 @@ input,textarea{
     padding: 1.5% 1.5%;
     border-radius: 5px;
     text-align: center;
-    margin-left: 5%;
 }
 span{
     font-weight: 600;
+
 }
 .view-code{
     background-color: green;
-    width: 20%;
+    width: 25%;
     padding: 1.5%;
     border-radius: 5px;
     text-align: center;
@@ -471,4 +486,7 @@ span{
     margin-top: 5%;
     display: flex;
     justify-content: center;
+}
+.project-view{
+    height: 100%;
 }
