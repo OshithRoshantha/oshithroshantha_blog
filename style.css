@@ -178,6 +178,7 @@ a{
 }
 .page-container6{
     height: auto;
+    width: 95%;
 }
 .home-text{
     font-size: 320%;
@@ -540,4 +541,5 @@ span{
     position: absolute;
     height: 80%;
     right: 4%;
+    animation: upDown 2s infinite;
 }
